@@ -1,0 +1,161 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Bonjour", "Bonsoir", "Salut", "Hello!", "hi", "Salam", "Hey", "salam alaikum"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?","salam alaikum,comment je peux vous aidez!"],
+      "context_set": ""
+    },
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later","merci", "Goodbye", "Au revoir", "Have a Good day", "bye", "cao", "A bientot"],
+      "responses": ["Triste de te voir partir :(", "On se parle plus tard", "Goodbye!","salam alaikum"],
+      "context_set": ""
+    },
+    {"tag": "offre",
+      "patterns": ["donner moi les offres djezzy", "qu'est ce que vous avez comme offre", "offre", "offre djezzy", "ofre","je veux voir les offres djezzy"],
+      "responses": ["Djezzy pour propose une panopli d'offre que ce soit mobile,internet faites votre choix "],
+      "context_set": ""
+    },
+    {"tag": "Offres Mobiles",
+    "patterns": ["Qu'est ce que vous avez comme offre Mobile?", "Offre mobile", "donner moi les offres mobiles", "mobile offre", ""],
+      "responses": ["comme offre mobile on a le Pack Confort entrez tapez pack confort pour plus d'information."],
+      "context_set": ""
+    },
+    {"tag": "Offres Internet",
+      "patterns": ["Qu'est ce que vous avez comme offre internet?", "Donner moi vos offres internet","offre internet","qu'est ce que vous proposez comme offre",""],
+      "responses": ["voici nos offres: Djezzy 3ayla,Offre 3g/4g, Facebook Flex ,Flexynet,Annulation Facebook Flex,.Entrer l'offre Internet qui vous intéresse ?"],
+      "context_set": ""
+    },
+    {"tag": "Djezzy 3AYLA",
+      "patterns": ["Djezzy 3AYLA","3ayla","ayla","aalya", "c'est quoi Djezzy 3AYLA?", "Djezzy AYLA","djezy aalya"],
+      "responses": ["La nouvelle offre 3ayla propose les forfaits les plus généreux du marché avec des validités allant jusqu'à 06 mois et des prix imbattables.L'offre 3ayla est disponible au niveau des boutiques et points de ventes des 48 Wilayas, elle propose un Pack Djezzy 3ayla + une SIM internet en déclinée en 3 offres selon vos besoins : Pack 3ayala 8500DA , 9000 DA et 9990 DALes détails sont disponibles ici : https://bit.ly/3eggpg3 "],
+      "context_set": ""
+    },
+    {"tag": " Offre 3g/4g",
+      "patterns": ["je veux des offres 3g/4g", "connection intenet", "Offre 3g/4g"],
+      "responses": ["Chez Djezzy vous avez une multitude d’offres internet à partir de 30 DA et qui vous offrent jusqu’à 60GO d’internet pour naviguer en toute liberté ! vous avez aussi la possibilité d’activer la même offre Internet contracté une deuxième fois consécutive avec une remise de -50%.Elles sont disponibles pour toutes les lignes prépayées et post payées en composant le *720#, *707# ou bien simplement depuis la Djezzy App Les détails sont disponibles ici : https://bit.ly/3r3kZ7a"],
+      "context_set": ""
+    },
+    {"tag": "Facebook Flex",
+      "patterns": ["Facebook Flex", "donner moi des information sur facebook flex", "facebok flex","facebok flix"],
+      "responses": ["Avec Facebook Flex, restez connectés gratuitement 24h/24 et 7j/7 !Grâce à Facebook Flex , vous avez désormais la possibilité de discuter, poster, commenter et même partager gratuitement du contenu !Le service est disponible sur le site web : www.Facebook.com et via l'Application Android : Facebook App et Messenger AppPlus de détails ici : https://ms.spr.ly/6000b76cy"],
+      "context_set": ""
+    },
+    {"tag": "Flexynet",
+      "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+      "responses": ["FLEXYNET est une nouvelle fonctionnalité destinée à tous nos abonnés Djezzy particuliers pour transférer à tout moment des volumes d'internet vers un autre numéro Mobile Djezzy.Vous avez le choix d'utiliser FLEXYNET de Djezzy via ces différents canaux :Télécharger l’application Djezzy disponible sur  Android et IOS, Depuis notre page Web : www.internet.djezzy.dzOu en composant le  *707#, puis choisissez la commande FLEXYNET et laissez-vous guider.Les détails sont disponibles ici : https://bit.ly/3k8BkpV"],
+      "context_set": ""
+    },
+    {"tag": "Pack Confort",
+      "patterns": ["Pack Confort", "Confort", "je veux voir le pack confort","donner moi plus d'information sur le pack confort",""],
+      "responses": ["FLEXYNET est une nouvelle fonctionnalité destinée à tous nos abonnés Djezzy particuliers pour transférer à tout moment des volumes d'internet vers un autre numéro Mobile Djezzy.Vous avez le choix d'utiliser FLEXYNET de Djezzy via ces différents canaux :Télécharger l’application Djezzy disponible sur  Android et IOS, Depuis notre page Web : www.internet.djezzy.dzOu en composant le  *707#, puis choisissez la commande FLEXYNET et laissez-vous guider.Les détails sont disponibles ici : https://bit.ly/3k8BkpV"],
+      "context_set": ""
+    },
+    {"tag": "Flexynet",
+      "patterns": ["Flexynet", "djezzy flexynet", "je veux voir flexynet","donner moi plus d'information sur flexynet",""],
+      "responses": ["FLEXYNET est une nouvelle fonctionnalité destinée à tous nos abonnés Djezzy particuliers pour transférer à tout moment des volumes d'internet vers un autre numéro Mobile Djezzy.Vous avez le choix d'utiliser FLEXYNET de Djezzy via ces différents canaux :Télécharger l’application Djezzy disponible sur  Android et IOS, Depuis notre page Web : www.internet.djezzy.dzOu en composant le  *707#, puis choisissez la commande FLEXYNET et laissez-vous guider.Les détails sont disponibles ici : https://bit.ly/3k8BkpV"],
+      "context_set": ""
+    },
+    {"tag": " offre prépayée",
+      "patterns": [" offre prépayée", " offre prepayee", "offre prepaye","djezzy offre prépayée","djezzy  offre prepaye","donner moi des information sur les offres prepayes","je veux voir les offres prepyes"],
+      "responses": ["Voici les offres prapaye disponible :djezzy hayla bezzaf,djezzy hayla maxi,djezzy special,djezzy special,djezzy zid,izzy. tapez l'offre que vous voulez voir"],
+      "context_set": ""
+    },
+    {"tag": "djezzy hayla bezzaf",
+      "patterns": ["djezzy hayla bezzaf", "je veux voir l'offre djezzy hayla bezzaf", "je veux plus d'information sur djezzy hayla bezzaf","djezzy hayla ","hayla bezzaf","je veux voir l'offre hayla"],
+      "responses": ["HAYLA BEZZEF est une offre prépayée avec une tarification de 4,99 DA/30 secondes vers tous les réseaux nationaux disponible au niveau de nos boutiques au prix de 300 DA seulement ! Vous aurez la possibilité de bénéficier de plusieurs avantages en appels , SMS et internet jusqu’à 60GO en composant *720# ou plus facilement depuis la Djezzy App !    Les détails sont disponibles ici : [lien](https://bit.ly/3sPJncC)"],
+      "context_set": ""
+    },
+    {"tag": "djezzy hayla maxi",
+      "patterns": ["djezzy hayla maxi", "je veux voir l'offre djezzy hayla maxi", "je veux plus d'information sur djezzy hayla maxi","djezzy hayla ","hayla maxi"],
+      "responses": ["HAYLA MAXI est une offre prépayée avec une tarification de 4,99 DA/30 secondes vers tous les réseaux nationaux, disponible au niveau de nos boutiques au prix de 300 DA seulement ! Vous aurez la possibilité de bénéficier de plusieurs avantages en appels , SMS et internet jusqu’à 60GO en composant *720# ou plus facilement depuis la Djezzy App !                      Les détails sont disponibles ici : bit.ly/3YhQhqA"],
+      "context_set": ""
+    },
+    {"tag": "djezzy special",
+      "patterns": ["djezzy special", "je veux voir l'offre djezzy special", "je veux plus d'information sur djezzy special","djezzy special ","special"],
+      "responses": ["Djezzy Spécial est la première et unique offre sur le marché qui propose des appels Gratuits & Illimités vers tous les réseaux nationaux fixe & Mobile, Un volume internet plus que généreux, des SMS illimités vers Djezzy avec également 30 SMS vers les autres réseaux nationaux.Disponible au prix de 300 DA au niveau de nos boutiques et nos points de ventes agréesLes détails sont disponibles ici : https://bit.ly/3cM55IY Rechargez 2000DA et bénéficier de : Appels vers tous les réseaux nationaux en illimités, 30 SMS Vers les autres réseaux nationaux, SMS en illimités vers Djezzy, 25GO d'internet pendant 30 jours"],
+      "context_set": ""
+    },
+    {"tag": "djezzy ZID",
+      "patterns": ["djezzy ZID", "je veux voir l'offre djezzy ZID", "je veux plus d'information sur djezzy ZID","djezzy ZID ","ZID","offre zid"],
+      "responses": ["Avec ZID Ma 3andek ma Tziiid  L’offre ZID contient plusieurs avantages et options : jour, semaine, quinzaine et mois selon vos besoin et avec un petit prix La SIM est disponible pour achat au niveau de toutes nos boutiques et nos points de vente agréés au prix de 300 DA .Pour plus de détails, cliquez ici : https://bit.ly/3ubgfxe "],
+      "context_set": ""
+    },
+    {"tag": "IZZY",
+      "patterns": ["djezzy izzy", "je veux voir l'offre djezzy IZZY", "je veux plus d'information sur djezzy iZZY","izzy ","offe izzy",""],
+      "responses": ["IZZY est une nouvelle offre créée par les jeunes et pour les jeunes à petit budget avec une longue validité, et aussi, la seule qui offre de l’illimité des réseaux sociaux! .La SIM est disponible au niveau de toutes nos boutiques au prix de 300 DA Les détails sont disponibles ici : https://bit.ly/3wtexIU "],
+      "context_set": ""
+    },
+    {"tag": "Offres postpayées",
+      "patterns": ["Offres postpayees", "je veux voir les Offres postpayées", "je veux plus d'information sur Offre postpayée","postpayées ","Offres postpayees","djezzy postpayee"],
+      "responses": ["Quelle offre postpayée vous intéresse ?:Djezzy Special,djezzy confort .Tapez votre choix"],
+      "context_set": ""
+    },
+    {"tag": "Djezzy Special",
+      "patterns": ["Djezzy Special", "je veux voir l'offre Djezzy Special", "je veux plus d'information sur Djezzy Special","Special ","offre Djezzy Special",""],
+      "responses": ["Djezzy Spécial est la première et unique offre postpayée sur le marché qui propose des appels Gratuits & Illimités vers tous les réseaux nationaux Fixe & Mobile, un volume internet plus que généreux, des SMS illimités vers Djezzy avec également 30 SMS vers les autres réseaux nationaux. Disponible aussi en mode post payée au niveau de toutes nos boutiques. Les détails sont disponibles ici : https://ms.spr.ly/6002b76Wg "],
+      "context_set": ""
+    },
+    {"tag": "Djezzy Confort",
+      "patterns": ["Djezzy Confort", "je veux voir l'offre Djezzy Confort", "je veux plus d'information sur Djezzy Confort","Confort ","offe Confort","conffort"],
+      "responses": ["Djezzy Confort est un abonnement mensuel qui contient plusieurs avantages exceptionnels avec un numéro 770 , l’offre se compose de 3 options selon vos besoin : 1500 DA, 2000 DA et 3000 DA ! .La SIM est disponible au niveau de toutes nos boutiques, et les points de vente agréés, les détails sont disponibles ici : https://bit.ly/3wxJsm7"],
+      "context_set": ""
+    },
+    {"tag": "E-Flexy",
+      "patterns": ["E-Flexy", "je veux voir l'offre djezzy e-flexy", "je veux plus d'information sur djezzy eflexy","izzy ","offre eflexy","recharge de credit","je veux recharger mon credit"],
+      "responses": ["Rechargez du crédit sans vous déplacer, en utilisant votre carte CIB / EDAHABIA d’une manière électronique en toute sécurité. À travers le lien web: https://ms.spr.ly/6009b767T ou via le lien Djezzy App:  https://bit.ly/2RB7xa1 "],
+      "context_set": ""
+    },
+    {"tag": "Tranquilo",
+      "patterns": ["Tranquilo", "comment utiliser tranquilo", "je veux plus d'information sur Tranquilo","Tranquilo service ","tranquil","trenquilo","djezzy tranquilo"],
+      "responses": [" Le (Nouveau Tranquilo)  permet à nos Abonnés Prépayés ayant un solde Inférieur à 5 DA, d’effectuer des Appels & d’envoyer des SMS avec le crédit d’urgence Attribué ( 20 DA / 24H, 50 DA / 7 Jours & 100 DA / 7 Jours ) respectivement pour seulement ( 2 Da, 5 Da & 10 Da ) de frais de souscription déductibles en totalité à partir du prochain rechargement client. L’ensemble des paliers (20 DA, 50 DA & 100 DA) sont disponibles sur l’ancienne & la nouvelle Version de la « Djezzy App » . Seul le palier initial de 20 DA est visible en permanence sur le canal USSD *100#. Pour plus de détails: https://ms.spr.ly/6006b7674"],
+      "context_set": ""
+    },
+    {"tag": "Paiement Facture",
+      "patterns": ["Paiement Facture", "je veux payer ma facture", "comment payer ma facture","facture ","paiement",""],
+      "responses": ["Bonjour, Vous avez la possibilité de régler votre facture par Flexy, carte de recharge, mais aussi via le e-paiement avec votre carte CIB / EDAHABIA en cliquant sur le lien suivant : https://ms.spr.ly/6001b76hH .Le service est disponible aussi sur la Djezzy APP : https://ms.spr.ly/6184kcRwq "],
+      "context_set": ""
+    },
+    {"tag": "Ranati",
+      "patterns": ["djezzy Ranati", "ranati information", "comment changer ranati","ranati ","sonerie ranati",""],
+      "responses": ["Changez de tonalité en fonction des nouveautés ou des événements aussi souvent que vous le souhaitez, C’est facile, il vous suffit de taper *2020# depuis votre mobile et laissez-vous guider. Disponible Sur la Djezzy App : https://bit.ly/2RB7xa1 Pour plus de détails : https://ms.spr.ly/6001b76Lf "],
+      "context_set": ""
+    },
+    {"tag": "IDJEZZY APP ",
+      "patterns": ["DJEZZY APP ", "application djezzy", "je veux plus d'information sur djezzy app","application  ","application de djezzy","app",""],
+      "responses": ["A travers la Djezzy App, vous aurez la possibilité de contrôler votre SIM, de souscrire aux offres plus rapidement et facilement !.Mais aussi, l’App contient un contenu de divertissement et des services, Vivez l’expérience Djezzy des maintenant en téléchargeant l’application disponible sur iOS et Android via les liens suivant : https://bit.ly/3hMV1Ak / https://apple.co/36BjViO "],
+      "context_set": ""
+    },
+    {"tag": "Djezzy Win  ",
+      "patterns": ["Djezzy Win  ", "Win ", "je veux plus d'information sur djezzy win","quiz","djezzy jeu","jeu","jouer"],
+      "responses": ["Djezzy WIN est un jeu de question/réponse, sous forme de lots de questions avec une liste de réponses. Pour chaque lot proposé, le participant devra choisir le maximum de bonnes réponses afin d’augmenter ses chances de gagner: 50 000 DZD/Jour,1 000 000 DZD/Semaine,Pour participer au Quizz, il suffit juste d'envoyer gratuitement un SMS avec le mot clé (Souscrire) au numéro court 767 et obtenir une souscription de durée journalière, ou de vous connecter à la Djezzy App.Les détails sont disponibles ici : https://www.djezzy.dz/djezzy-win-quizz-sms/ "],
+      "context_set": ""
+    },
+    {"tag": "Renvoi d'appel",
+      "patterns": ["Renvoi d'appel ", "Renvoi ", "transferer les appels","information renvoi  ","comment faire le renvoi d'appel","",""],
+      "responses": ["Vous êtes injoignables ? Ce service vous permet de transférer vos appels vers le numéro de votre choix.Accéder au menu / paramètre d’appels / renvoi / choisissez votre option. Pour plus de détails: https://ms.spr.ly/6001b7B6N "],
+      "context_set": ""
+    },
+    {"tag": "SMS 3LIK ",
+      "patterns": ["SMS 3LIK ", "sms","3lik","sms alik","donner moi plus d'information sur sms 3lik","sms 3lik information  ","comment utiliser sms 3lik","aalik",""],
+      "responses": ["Restez en contact avec vos amis et proches même si vous ne disposez pas de crédit. Si vous envoyez un SMS vers notre réseau Djezzy et que votre crédit est insuffisant, vous serez automatiquement notifié par un message vous invitant à utiliser le service (SMS 3LIK). Pour plus de détails: https://ms.spr.ly/6001b7B6c "],
+      "context_set": ""
+    },
+    {"tag": "Recrutement ",
+      "patterns": ["Recrutement ", "recrutement information", "je veux plus d'information sur les recrutement","offre de recrutement  ","emploi djezzy","travail djezzy","offre d'emploi"],
+      "responses": ["Veuillez  trouver  nos offres de recrutement du moment  sur le lien suivant:bit.ly/3XFqsRc  Merci pour l'interet que vous portez à notre entreprise "],
+      "context_set": ""
+    },
+    {"tag": "Sponsoring ",
+      "patterns": ["Sponsoring ", "Sponsoring djezzy", "je veux plus d'information sur le sponsoring","sponsore  ","demande de sponsoring","comment demander le sponsoring",""],
+      "responses": ["Prière d'enregistrer votre demande de sponsoring via le lien suivant : https://ms.spr.ly/6003b7B8F "],
+      "context_set": ""
+    },
+    {"tag": "Réclamations ",
+      "patterns": ["Reclamations ", "j'ai un probleme", "probleme","parler a un agent ","agent","probleme de connexion","perte de credit","reclamation","j'ai une reclamation"],
+      "responses": ["Nous transférons votre cas vers un Expert Djezzy qui répondra à vos questions."],
+      "context_set": ""
+    }
+    
+    
+
+  ]
+  }
