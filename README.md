@@ -1,83 +1,43 @@
-# Djezzy Chatbot
+# Djezzy Chatbot (LLM + RAG)
 
-This project is a chatbot developed for **Djezzy**, using simple deep learning techniques to provide automated responses to user inquiries. The chatbot is built with Python and deep learning frameworks to process and respond to user inputs efficiently.
+This project implements a **question-answering chatbot** for **Djezzy** using a **Large Language Model (LLM)** combined with a **Retrieval-Augmented Generation (RAG)** approach.  
+The entire system is implemented in **a single Jupyter Notebook** as a proof of concept.
 
-## Features
+The chatbot answers user questions by retrieving relevant information from a document corpus and using this context to generate accurate and grounded responses.
 
-- **Automated response system** based on deep learning.
-- **Natural Language Processing (NLP)** for improved understanding.
-- **User-friendly interface** for seamless interactions.
-- **Customizable responses** to fit Djezzy's needs.
+---
+
+## Project Content
+
+This repository contains a single file:
+
+- `chatbot_rag.ipynb` — Jupyter Notebook implementing the full LLM + RAG pipeline
+
+---
+
+## Description
+
+The notebook demonstrates an end-to-end **LLM + RAG workflow**, including:
+- Loading and preprocessing textual documents
+- Chunking text for efficient retrieval
+- Generating semantic embeddings
+- Performing similarity search over a vector index
+- Injecting retrieved context into the LLM prompt
+- Generating final answers based on retrieved evidence
+
+This approach improves answer reliability and reduces hallucinations compared to a standalone LLM.
+
+---
 
 ## Technologies Used
 
-- **Programming Language:** Python
-- **Frameworks & Libraries:**
-  - TensorFlow / PyTorch
-  - NLTK / spaCy
-  - Flask (for serving the chatbot)
-- **Frontend:** HTML, CSS, JavaScript
+- **Language:** Python  
+- **Environment:** Jupyter Notebook  
+- **LLM:** Transformer-based language model  
+- **Embeddings:** Sentence embeddings  
+- **Vector Search:** FAISS (or equivalent similarity search)  
+- **Libraries:** PyTorch, Transformers, NumPy, Pandas  
 
-## Installation
-
-To run the project locally, follow these steps:
-
-
-### 3. Train the Model
-Run the following command to train the chatbot model:
-```bash
-python train_model.py
-```
-
-### 4. Start the Chatbot Server
-After training, start the Flask server:
-```bash
-python app.py
-```
-
-### 5. Access the Chatbot
-Open your web browser and go to:
-```
-http://localhost:5000
-```
-
-## Usage
-
-1. Input a query related to Djezzy services.
-2. The chatbot processes the query using deep learning.
-3. The response is displayed instantly.
-
-## Folder Structure
-
-```
-├── chatbot
-├── intents.json
-├── chatbot_model.h5
-├── train_model.py
-├── frontend
-│   ├── index.html
-│   ├── css/
-│   │   ├── styles.css
-│   ├── js/
-│   │   ├── script.js
-├── app.py
-└── README.md
-```
-
-## Example Interaction
-
-- **User:** "What are the latest offers from Djezzy?"
-- **Chatbot:** "Djezzy currently offers 50GB for 2000DA valid for 30 days."
-
-## Potential Improvements
-
-- Enhance the model with more training data for better accuracy.
-- Deploy the chatbot to cloud services for scalability.
-- Add voice interaction features.
-
-## Contribution
-
-Feel free to contribute by submitting pull requests or reporting issues.
-
+---
 
 
