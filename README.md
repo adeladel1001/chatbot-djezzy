@@ -11,7 +11,7 @@ The chatbot answers user questions by retrieving relevant information from a doc
 
 This repository contains a single file:
 
-- `chatbot_rag.ipynb` — Jupyter Notebook implementing the full LLM + RAG pipeline
+- `rag_model.ipynb` — Jupyter Notebook implementing the full LLM + RAG pipeline
 
 ---
 
@@ -34,7 +34,6 @@ This approach improves answer reliability and reduces hallucinations compared to
 - **Language:** Python  
 - **Environment:** Jupyter Notebook  
 - **LLM:** Transformer-based language model  
-- **Embeddings:** Sentence embeddings  
 - **Vector Search:** FAISS (or equivalent similarity search)  
 - **Libraries:** PyTorch, Transformers, NumPy, Pandas  
 
